@@ -1,0 +1,33 @@
+# Core dependencies for TaxoAlign
+torch>=1.10
+transformers>=4.25
+scikit-learn>=1.0
+spacy>=3.0
+beautifulsoup4>=4.9
+tqdm>=4.60
+pandas>=1.3
+rank-bm25>=0.2
+requests>=2.25
+huggingface_hub>=0.13
+sentencepiece>=0.1.95
+
+# SPECTER dependencies (document embedding)
+# See: https://github.com/allenai/specter#installation
+sentence-transformers>=2.2
+jsonlines>=1.2.0
+
+# KeyLLM/KeyBERT dependencies (keyword extraction)
+# See: https://github.com/MaartenGr/KeyBERT and https://maartengrootendorst.com/blog/keyllm/
+keybert>=0.7.0
+# For LLM-based keyword extraction in KeyLLM (optional, for GPU support)
+ctransformers[cuda]>=0.2.24
+
+# Optional: for SPECTER, if running their repo/scripts directly
+# (You may also need: python-Levenshtein, networkx, tqdm, etc.)
+pip install -r https://github.com/allenai/specter/blob/master/requirements.txt
+
+# If using GPU, ensure CUDA is installed and torch matches CUDA version
+pip install torch==1.13.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+
+# Download spaCy English model after install:
+python -m spacy download en_core_web_sm
