@@ -35,16 +35,6 @@ The main database used in this paper is hosted at HuggingFace Datasets:
 
 - [ArSyTa on HuggingFace](https://huggingface.co/datasets/goyalkaraniit/ArSyTa)
 
-# TaxoAlign: Multi-Taxonomy Contextually Aligned Recommendations for Scholarly Papers
-
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-...
-
-## License
-
-This repository and its code are released under the [Creative Commons BY-NC-ND 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-
 
 
 
