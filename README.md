@@ -1,14 +1,6 @@
 # TaxoAlign: Multi-Taxonomy Contextually Aligned Citation Recommendations
 
-**Paper status:** _Under review at PVLDB_
-
-## Overview
-
-**TaxoAlign** is a novel, resource-efficient citation recommendation algorithm that leverages hierarchical multi-taxonomy representations to deliver **contextually relevant, interpretable, and precise scholarly paper recommendations**. Unlike prior approaches, TaxoAlign fuses flat and hierarchical taxonomies (arXiv and ACM CCS), deep semantic embeddings (SciBERT, KeyLLM), and a sliding-window mechanism to both recommend relevant citations and pinpoint the optimal insertion point within the input text.
-
 - **Database:** The core database used in this project is [ArSyTa](https://huggingface.co/datasets/goyalkaraniit/ArSyTa), a large-scale, up-to-date scholarly citation dataset hosted on HuggingFace Datasets.  
-- **Paper:** _TaxoAlign: A Multi-Taxonomy Contextually Aligned Recommendations for Scholarly Papers_ (Gupta, Aggarwal, Mohania) - currently under review at PVLDB.
-
 ---
 
 ## Brief Description
